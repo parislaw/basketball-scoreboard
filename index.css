@@ -1,0 +1,52 @@
+/* This stylesheet will be used with the scoreboard. */
+@font-face {
+    src: url(fonts/CursedTimerUlil-Aznm.ttf);
+    font-family: timer;
+}
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+    height: 100vh;
+    color: white;
+    
+}
+/* setting up the buttons here */
+button {
+    background: transparent;
+    border: 2px solid #9AABD8;
+    border-radius: 4px;
+    padding: 10px 10px 10px 10px;
+    color: #9AABD8;
+    font-family: timer;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 1px;
+}
+/* setting up the scoreboard here */
+.score {
+    margin: 20px;
+    background: #080001;
+    padding: 20px;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    height: 90px;
+    font-family: timer;
+}
+/* setting up the team colum rules here */
+.team {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 550;
+    margin-bottom: -10px;
+}
